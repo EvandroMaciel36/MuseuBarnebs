@@ -40,7 +40,7 @@ int main() {
     char resposta[10];
     printf("Você é professor ou aluno? (Digite 'professor' ou 'aluno'): ");
     scanf("%s", resposta);
-                                     /*NESTA PARTE, eu estava esperando que
+                                     /*nessa parte, eu estava esperando que
                                      o codigo pegasse a idade e se fosse maior que 65, ele pulasse direto para o
                                      retun. Mas ele pergunta se a pessoa é aluno ou professor e depois retorna se a pessoa
                                      é idosa. precisamos ajustar (ou não)*/
