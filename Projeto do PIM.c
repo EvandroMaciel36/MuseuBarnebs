@@ -33,7 +33,7 @@ int main() {
     printf("Olá! Você está no site do Museu da Barnebs Inc.\nPara dar continuidade no seu atendimento, precisamos de algumas informações\n");
     printf("Por favor, nos informe seu nome:\n");
     scanf("%s", nome);
-    printf("Olá, %s! Seja bem-vindo!\n", nome);
+    printf("Olá, %s! Seja bem-vindo(a)!\n", nome);
 
     int idade = calcularIdade();
 
