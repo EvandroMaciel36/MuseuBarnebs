@@ -18,7 +18,7 @@ int calcularIdade() {
     
     // Pega a data do nascimento
     int diaNascimento, mesNascimento, anoNascimento;
-    sscanf(dataNascimento, "%d/%d/%d", &diaNascimento, &mesNascimento, &anoNascimento);
+    scanf(dataNascimento, "%d/%d/%d", &diaNascimento, &mesNascimento, &anoNascimento);
     
     // Calcula a idade
     int idade = infoTempo->tm_year + 1900 - anoNascimento;
