@@ -4,6 +4,7 @@
 #include <time.h>
 #include <string.h>
 #include <ctype.h>
+#include <unistd.h>
 
 int calcularIdade() {
     char dataNascimento[11]; // armazena a data de nascimento
@@ -66,15 +67,18 @@ int calcularIngresso() {
         if (strcmp(pagamento, "c") == 0) {
             printf("Digite a senha: ");
             scanf("%d", &senha);
+            sleep(2);
             printf("\nCompra concluída!\n");
             break; // Sai do loop quando "c" é inserido.
         } else if (strcmp(pagamento, "e") == 0) {
             printf("Digite a senha: ");
             scanf("%d", &senha);
+            sleep(2);
             printf("\nCompra concluída!\n");
             break; // Sai do loop quando "e" é inserido.
         } else if (strcmp(pagamento, "d") == 0) {
             printf("\nConferindo valor recebido...");
+            sleep(2);
             printf("\nCompra concluída!\n");
             break; // Sai do loop quando "d" é inserido.
         } else {
